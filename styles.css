@@ -19,6 +19,8 @@ body {
     background-image: url("assets/Background.svg") ;
     background-repeat: no-repeat;
     background-size: contain;
+    align-items: center;
+    text-align: center;
 }
 
 .container {
@@ -59,3 +61,34 @@ body {
     font-size: 0.8em;
     color: var(--cor-rodape);
 }
+
+.container__img {
+    width: 80%;
+}
+
+.container__descricao {
+    padding: 2em;
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.descricao__titulo {
+    font-size: 3em;
+    font-weight: 700;
+    margin-bottom: 0.1em;
+}
+
+.descricao__paragrafo {
+    font-size: 1em;
+    font-weight: 400;
+    color: var(--cor-texto-secundario);
+}
+
+.secundario__btn {
+    display: inline-block;
+    margin-top: 1em;
+}
+
