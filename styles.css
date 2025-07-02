@@ -4,4 +4,58 @@
     --cor-texto-secundario: #F9F9F9;
     --cor-botao: #167BF7;
     --cor-rodape: #C0C0C0;
+    --fonte: 'Inter';
+}
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    font-family: var(--fonte);
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.principal {
+    background-image: url("assets/Background.svg") ;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container__conteudo {
+   margin: 0 6em;
+}
+
+.conainter__titulo {
+    font-size: 1.75em;
+    font-weight: 700;
+}
+
+.container__img {
+   margin: 1em 0 2em 0;
+}
+
+.container__btn {
+    background-color: var(--cor-botao);
+    border-radius: 8px;
+    text-decoration: none;
+    padding: 1em;
+    color: var(--cor-texto);
+    display: block;
+    margin-bottom: 1em;
+}
+
+.botao_secundario {
+    background-color: transparent;
+    border: solid 2px var(--cor-texto);
+}
+
+.container__aviso {
+    font-size: 0.8em;
+    color: var(--cor-rodape);
 }
